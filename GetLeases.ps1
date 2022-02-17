@@ -1,4 +1,7 @@
-﻿function Get-Lease{
+Install-Module Posh-SSH
+Install-Module Importexcel
+ 
+ function Get-Lease{
 
     [CmdletBinding()]
     param(
